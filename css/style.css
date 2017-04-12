@@ -1,7 +1,14 @@
-.nav-bar{
+.fondo {
+	background-image: url("http://www.v3wall.com/wallpaper/1920_1080/1311/1920_1080_201311061258021039146.jpg");
+	background-size: 100%;
+	height: 800px;
+}
+.navbar {
+	background: transparent;
+	border: 0;
+	margin: 0; 
 	float: right;
 }
-
 h3{
 	font-size: 40px; 
 	font-style: bold;
@@ -10,7 +17,10 @@ h3{
 .bajada{
 	font-style:italic;
 } 
-
+.titulopag{
+	margin: 50px;
+	padding:50px;
+}
 h1{
 	font-size: 70px;
 	text-transform: uppercase;
@@ -29,4 +39,21 @@ h1{
 
 .gris{
 	background: grey;
+} 
+
+a{
+	text-decoration: none;
+} 
+
+.logos-servicios{
+	font-size: 60px; 
+	background: orange;
+	color: white;
+	border-radius: 50%;
+	padding: 20px; 
+	box-sizing: border-box;
+} 
+
+.services{
+	display: inline-block;
 }
