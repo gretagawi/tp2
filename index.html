@@ -34,17 +34,20 @@
 
 </header>
 
-<div class="fondo">
-        <div class="container text-center titulopag center-block">
-            <h2 class="subtitulo tipografia">Welcome to our studio!</h2>
-            <h1>It's nice to meet you</h1>
-            <p>
-                <button type="button" class="page-scroll btn-xl btn btn-warning btn-lg boton1 tipografia">
-                    Tell me more
-                </button>
-            </p>
+        <div class="container-fluid fondo">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                     <h2 class="subtitulo tipografia">Welcome to our studio!</h2>
+                    <h1>It's nice to meet you</h1>
+                    <button type="button" class="page-scroll btn-xl btn btn-warning btn-lg boton1 tipografia">
+                        Tell me more
+                    </button>
+                </div>
+            </div>
+           
+       
         </div>
-</div>
+
 
     <!-- SERVICES -->    
     <div class="container">
@@ -94,6 +97,44 @@
         <h3>PORTFOLIO</h3> 
         <p class="bajada tipografia">Lorem ipsum dolor sit amet consectetur.</p> 
        
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="thumbnail thgris">
+                    <img src="http://placehold.it/100x100" alt="portfolio">
+                        <div class="caption">
+                            <h4 class="tipografia">E-Commerce</h4>
+                            <p class="tipografia">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+
+            <div class="col-md-4">
+                <div class="thumbnail thgris">
+                    <img src="http://placehold.it/100x100" alt="portfolio">
+                        <div class="caption">
+                            <h4 class="tipografia">Responsive Design</h4>
+                            <p class="tipografia">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 
+                            </p>
+                        </div>
+                </div>
+            </div> 
+
+            <div class="col-md-4">
+                <div class="thumbnail thgris">
+                    <img src="http://placehold.it/100x100" alt="portfolio">
+                        <div class="caption">
+                            <h4>Web Security</h4>
+                            <p class="tipografia">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-4">
                 <div class="thumbnail thgris">
@@ -214,26 +255,25 @@
         <h3>CONTACT US</h3> 
         <p class="bajada">Lorem ipsum dolor sit amet consectetur.</p>
        
-        <section>        
-            <form method="POST" action="enviar.php" enctype="multipart/form-data"> 
-                <div class="row">
-                    <div class="col-md-6">
-                        <input type="text" name="nombre" placeholder="YOUR NAME" required> 
+        <section>
+            <form method="POST" action="enviar.php" enctype="multipart/form-data">        
+                <div class="form-group">
+                    <input type="text" class="form-control" name="nombre" placeholder="YOUR NAME" required> 
+                </div>
 
-                        <input type="email" name="correo" placeholder="YOUR EMAIL" required> 
- 
-                        <input type="tel" name="usrtel" placeholder="YOUR TEL">
+                <div class="form-group">
+                    <input type="tel" class="form-control" name="urstel" placeholder="YOUR TEL" required> 
+                </div>
 
-                </div>   
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="YOUR EMAIL">
+                </div>
 
-                <div class="row"> 
-                    <div class="col-md-6">    
-                    <label for="mensaje">Mensaje:</label> 
-                    <textarea name="mensaje" placeholder="YOUR MESSAGE"></textarea>
-                </div>   
-                    
-                <input type="submit" name="SEND MESSAGE"> 
+                <div class="form-group">
+                    <textarea name="mensaje" class="form-control" placeholder="YOUR MESSAGE"></textarea>
+                </div>
 
+                <button type="submit" class="btn btn-default boton1 page-scroll btn-xl btn btn-warning btn-lg tipografia">SEND MESSAGE</button>
             </form>
         </section>
     </div> 
