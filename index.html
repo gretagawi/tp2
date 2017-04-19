@@ -3,72 +3,82 @@
 <head>
     <title>Bootstrap Agency</title> 
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css"> 
-
+    <link rel="stylesheet" href="css/bootstrap.css">    
+    <link rel="stylesheet" href="css/style.css"> 
+    <meta name="viewport" content="width=device-width, user-scalable=1"> 
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head> 
-
-<header>
-    <a href="#">START BOOTSTRAP</a>
-    <nav>
-        <ul>
-            <li>SERVICES</li> 
-            <li>PORTFOLIO</li>
-            <li>ABOUT</li> 
-            <li>TEAM</li> 
-            <li>CONTACT</li> 
-        </ul>
-    </nav>
-</header>
 <body>
-    <script src="js/jquery-3.2.0.min.js"></script>
-    <script src="js/bootstrap.js"></script> 
+<header>
 
+    <nav class="navbar navbar-default">
+        <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand tipografia colorletra" href="#">LOGO</a>
+            </div> 
 
-    <div>
-        <h2>Welcome to our studio!</h2>
-        <h1>It's nice to meet you</h1>
-        <p>
-            <button type="button" class="btn btn-primary btn-lg">Tell me more</button>
-        </p>
-    </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right tipografia colorletra">
+                    <li><a class="colorletra" href="#">SERVICE</a></li>
+                    <li><a class="colorletra" href="#">PORTFOLIO</a></li>
+                    <li><a class="colorletra" href="#">ABOUT</a></li>
+                    <li><a class="colorletra" href="#">TEAM</a></li>
+                    <li><a class="colorletra" href="#">CONTACT</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+</header>
+
+<div class="fondo">
+        <div class="container text-center titulopag center-block">
+            <h2 class="subtitulo tipografia">Welcome to our studio!</h2>
+            <h1>It's nice to meet you</h1>
+            <p>
+                <button type="button" class="page-scroll btn-xl btn btn-warning btn-lg boton1 tipografia">
+                    Tell me more
+                </button>
+            </p>
+        </div>
+</div>
 
     <!-- SERVICES -->    
-    <div>
-        <h3>SERVICES</h3> 
-        <p>Lorem ipsum dolor sit amet consectetur.</p> 
+    <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="..." alt="...">
+            <div class="col-md-12">
+                <h3 class="text-center">SERVICES</h3> 
+                <p class="text-center bajada tipografia">Lorem ipsum dolor sit amet consectetur.</p> 
+            </div>
+        </div>
+
+        <div class="row ">
+
+            <div class="col-md-6">
+                <div class="thumbnail thblanco">
+                    <div class="logos-servicios text-center center-block">
+                        <span class=" ion-locked"></span>
+                    </div>
                         <div class="caption">
-                            <h4>E-Commerce</h4>
-                            <p>
+                            <h4 class="tipografia text-center">Responsive Design</h4>
+                            <p class="text-center">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 
                             </p>
                         </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="..." alt="...">
+
+            <div class="col-md-6">
+                <div class="thumbnail thblanco">
+                    <div class="logos-servicios text-center center-block">
+                        <span class=" ion-locked"></span>
+                    </div>
                         <div class="caption">
-                            <h4>Responsive Design</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 
-                            </p>
-                        </div>
-                </div>
-            </div>
-        </div>
-                <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="..." alt="...">
-                        <div class="caption">
-                            <h4>Web Security</h4>
-                            <p>
+                            <h4 class="text-center">Web Security</h4>
+                            <p class="text-center tipografia">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 
                             </p>
                         </div>
@@ -76,46 +86,46 @@
             </div>
         </div>
     </div>
-
 
 
 <!-- PORTFOLIO -->
-    <div>
+<div class="gris">
+    <div class="container text-center">
         <h3>PORTFOLIO</h3> 
-        <p>Lorem ipsum dolor sit amet consectetur.</p> 
+        <p class="bajada tipografia">Lorem ipsum dolor sit amet consectetur.</p> 
+       
         <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="..." alt="...">
+            <div class="col-sm-4">
+                <div class="thumbnail thgris">
+                    <img src="http://placehold.it/100x100" alt="portfolio">
                         <div class="caption">
-                            <h4>E-Commerce</h4>
-                            <p>
+                            <h4 class="tipografia">E-Commerce</h4>
+                            <p class="tipografia">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 
                             </p>
                         </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="..." alt="...">
+        
+
+            <div class="col-md-4">
+                <div class="thumbnail thgris">
+                    <img src="http://placehold.it/100x100" alt="portfolio">
                         <div class="caption">
-                            <h4>Responsive Design</h4>
-                            <p>
+                            <h4 class="tipografia">Responsive Design</h4>
+                            <p class="tipografia">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 
                             </p>
                         </div>
                 </div>
-            </div>
-        </div>
-                <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="..." alt="...">
+            </div> 
+
+            <div class="col-md-4">
+                <div class="thumbnail thgris">
+                    <img src="http://placehold.it/100x100" alt="portfolio">
                         <div class="caption">
                             <h4>Web Security</h4>
-                            <p>
+                            <p class="tipografia">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 
                             </p>
                         </div>
@@ -123,20 +133,119 @@
             </div>
         </div>
     </div> 
-
+</div>
 
     <!-- ABOUT --> 
-
+    <div class="container text-center">
+        <h3>ABOUT</h3> 
+        <div class="about center-block">
+            <p class="bajada tipografia">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
 
     <!-- OUR AMAZING TEAM --> 
+<div class="gris">
+    <div class="container text-center">
+        <h3>OUR AMAZING TEAM</h3> 
+        <p class="bajada tipografia">Lorem ipsum dolor sit amet consectetur.</p>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail thgris">
+                    <img class="img-circle" src="http://placehold.it/100x100" alt="equipo">
+                        <div class="caption">
+                            <h4>Kay Garland</h4>
+                            <p class="tipografia">Lead Designer </p> 
+                            <span class="ion-social-twitter"></span>
+                            <span class="ion-social-facebook"></span>
+                            <span class="ion-social-linkedin"></span>                            
+                        </div>
+                </div>
+            </div>
 
+            <div class="col-md-4">
+                <div class="thumbnail thgris">
+                    <img class="img-circle" src="http://placehold.it/100x100" alt="equipo">
+                        <div class="caption">
+                            <h4>Larry Parker</h4>
+                            <p class="tipografia"> Lead Marketer</p>
+                            <span class="ion-social-twitter"></span>
+                            <span class="ion-social-facebook"></span>
+                            <span class="ion-social-linkedin"></span>                           
+                        </div>
+                </div>
+            </div> 
+
+            <div class="col-md-4">            
+                <div class="thumbnail thgris">
+                    <img class="img-circle" src="http://placehold.it/100x100" alt="equipo">
+                        <div class="caption">
+                            <h4>Diana Pertersen</h4>
+                            <p> Lead Developer </p>
+                            <span class="ion-social-twitter"></span>
+                            <span class="ion-social-facebook"></span>
+                            <span class="ion-social-linkedin"></span>                        
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div> 
 
     <!-- CLIENTES --> 
-
+    <div class="container text-center">
+        <img src="http://placehold.it/100x100" alt="cliente" class="clientes">
+        <img src="http://placehold.it/100x100" alt="cliente" class="clientes">
+        <img src="http://placehold.it/100x100" alt="cliente" class="clientes">
+        <img src="http://placehold.it/100x100" alt="cliente" class="clientes">
+    </div>
 
     <!-- CONTACT US -->
+<div class="contact">
+    <div class="container text-center">
+        <h3>CONTACT US</h3> 
+        <p class="bajada">Lorem ipsum dolor sit amet consectetur.</p>
+       
+        <section>        
+            <form method="POST" action="enviar.php" enctype="multipart/form-data"> 
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" name="nombre" placeholder="YOUR NAME" required> 
+
+                        <input type="email" name="correo" placeholder="YOUR EMAIL" required> 
+ 
+                        <input type="tel" name="usrtel" placeholder="YOUR TEL">
+
+                </div>   
+
+                <div class="row"> 
+                    <div class="col-md-6">    
+                    <label for="mensaje">Mensaje:</label> 
+                    <textarea name="mensaje" placeholder="YOUR MESSAGE"></textarea>
+                </div>   
+                    
+                <input type="submit" name="SEND MESSAGE"> 
+
+            </form>
+        </section>
+    </div> 
+</div>
+
+
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
+
 <footer>
     
 </footer>
+
 </html>

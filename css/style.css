@@ -1,17 +1,28 @@
 .fondo {
-	background-image: url("http://www.v3wall.com/wallpaper/1920_1080/1311/1920_1080_201311061258021039146.jpg");
+	background-image: url("https://cdn.pixabay.com/photo/2015/10/12/14/51/road-983911_960_720.jpg");
 	background-size: 100%;
+	background-size: cover; 
 	height: 800px;
+}
+
+.tipografia{
+	font-family: Montserrat, sans-serif;	
+}
+
+.navbar-default{
+	color: black;
 }
 .navbar {
 	background: transparent;
 	border: 0;
 	margin: 0; 
-	float: right;
+	float: right; 
 }
-h3{
+
+h3 {
 	font-size: 40px; 
 	font-style: bold;
+	font-family: Montserrat, sans-serif;
 }
 
 .bajada{
@@ -23,7 +34,8 @@ h3{
 }
 h1{
 	font-size: 70px;
-	text-transform: uppercase;
+	text-transform: uppercase; 
+	font-family: Montserrat, sans-serif;
 } 
 
 .subtitulo{
@@ -32,13 +44,13 @@ h1{
 } 
 
 .boton1{
-	background-color: yellow;
+	background-color: #fed136;
 	padding: 20px; 
 	text-transform: uppercase;
 } 
 
 .gris{
-	background: grey;
+	background: #eee;
 } 
 
 a{
@@ -46,14 +58,55 @@ a{
 } 
 
 .logos-servicios{
-	font-size: 60px; 
+	text-align: center;
 	background: orange;
-	color: white;
 	border-radius: 50%;
-	padding: 20px; 
-	box-sizing: border-box;
+	width: 100px;
+	height: 100px; 
 } 
+
+.logos-servicios span {
+	line-height: 100px; 
+	color: white; 
+	font-size: 60px;
+}
 
 .services{
 	display: inline-block;
+} 
+
+h4{
+	font-family: Montserrat, sans-serif;
+}
+
+p{
+	font-family: Montserrat, sans-serif;
+} 
+
+.colorletra { 
+	color: black;
+ } 
+
+.thgris {
+	background: #eee; 
+	border:none;
+} 
+
+.contact {
+	background-image: url(https://cdn.pixabay.com/photo/2015/08/03/02/14/phone-872814_960_720.jpg);
+	background-size: 100%;
+	background-size: cover; 
+	height: 800px;
+} 
+
+.thblanco {
+	border:none;
+} 
+
+.about {
+	width: 600px;
+} 
+
+.clientes {
+	padding: 30px;
 }
