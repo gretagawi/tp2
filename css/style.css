@@ -79,7 +79,7 @@ h4{
 	font-family: Montserrat, sans-serif;
 }
 
-p{
+p {
 	font-family: Montserrat, sans-serif;
 } 
 
@@ -104,9 +104,56 @@ p{
 } 
 
 .about {
-	width: 600px;
+	max-width: 600px;
 } 
 
 .clientes {
 	padding: 30px;
+} 
+
+.footer {
+	height: 50px;
 }
+
+.form {
+	float: right;
+} 
+
+.form-control {
+	font-family: Montserrat, sans-serif;
+	font-color:grey;
+}
+
+.mensaje {
+	height: 150px; 
+} 
+
+.copyright {
+	padding: 40px; 
+	display: inline-block;
+} 
+
+.iconos-footer {
+	margin: 20px; 
+	font-size: 30px; 
+	color: white; 
+	text-align: center; 
+} 
+
+.fondoicono-footer {
+	background-color: black; 
+	border-radius: 50%; 
+	height: 50px;
+	width: 50px; 
+	display: inline-block; 
+	padding: 5px;
+} 
+
+.navfooter {
+	padding: 20px;
+	color: orange; 
+	float: right; 
+	font-family: Montserrat, sans-serif; 
+
+} 
+
